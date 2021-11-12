@@ -22,7 +22,7 @@ const AddProduct = () => {
         weight,
         description,
       };
-      fetch("https://fathomless-beyond-34579.herokuapp.com/addProduct", {
+      fetch("https://fierce-hollows-30540.herokuapp.com/addProduct", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

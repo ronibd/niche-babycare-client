@@ -8,7 +8,7 @@ const ManageProduct = () => {
   const deleteItem = (id) => {
     const getConfirmation = window.confirm("Are you sure to delete the product?");
     if (getConfirmation) {
-      fetch("https://fathomless-beyond-34579.herokuapp.com/deleteProduct?id=" + id)
+      fetch("https://fierce-hollows-30540.herokuapp.com/deleteProduct?id=" + id)
         .then((res) => res.json())
         .then((data) => {
           if (data.deletedCount > 0) {
@@ -22,7 +22,7 @@ const ManageProduct = () => {
   };
 
   useEffect(() => {
-    fetch("https://fathomless-beyond-34579.herokuapp.com/getProducts")
+    fetch("https://fierce-hollows-30540.herokuapp.com/getProducts")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

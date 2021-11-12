@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className='navigationbar'>
       <div className='navbar__brand'>
         <Link to='/'>
-          <h4>Eazy Buy</h4>
+          <h4>Baby Care Shop</h4>
         </Link>
       </div>
       <div className='navigation'>

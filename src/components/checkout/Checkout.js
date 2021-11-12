@@ -16,7 +16,7 @@ const Checkout = () => {
       orderDate: new Date().toDateString(),
     };
     if (window.confirm("Are you sure to place the order?")) {
-      fetch("https://fathomless-beyond-34579.herokuapp.com/placeOrder", {
+      fetch("https://fierce-hollows-30540.herokuapp.com/placeOrder", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(order),
@@ -32,7 +32,7 @@ const Checkout = () => {
   };
 
   useEffect(() => {
-    fetch("https://fathomless-beyond-34579.herokuapp.com/getProduct?id=" + id)
+    fetch("https://fierce-hollows-30540.herokuapp.com/getProduct?id=" + id)
       .then((res) => res.json())
       .then((data) => setSelectedProduct(data));
   }, []);
