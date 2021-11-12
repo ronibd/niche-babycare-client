@@ -1,4 +1,5 @@
 # Eazy Buy
+
 ### Eazy Buy is a MERN stack eCommerce site with firebase authentication and dashboard.
 
 **Features: **
@@ -8,9 +9,9 @@
 3. User can log in using gmail or facebook authentication.
 4. Logged in user can see his/her placed order.
 
-**Tools and Technologies:** react.js, express.js, mongodb, bootstrap and firebase authentication, 
+**Tools and Technologies:** react.js, express.js, mongodb, bootstrap and firebase authentication,
 metarial UI, heroku.
 
-**The Live site link**- https://easybuy15.web.app/
+**The Live site link**-
 
-**Server Repository** - https://github.com/tanvirul15/eazy-buy-server
+**Server Repository** - https://github.com/programming-hero-web-course-4/niche-website-server-side-ronibd
